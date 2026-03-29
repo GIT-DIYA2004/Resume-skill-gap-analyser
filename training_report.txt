@@ -1,0 +1,28 @@
+Training Report (Cross-Validation)
+========================================
+Total pairs evaluated: 3000
+Positives: 1500 | Negatives: 1500
+----------------------------------------
+Logistic Regression:
+  F1-Score:    0.0000 ± 0.0000
+  Accuracy:    0.5000
+  Precision:   0.0000
+  Recall:      0.0000
+  Avg Precision: 0.5000
+
+KNN:
+  F1-Score:    0.5066 ± 0.0071
+  Accuracy:    0.5060
+  Precision:   0.5059
+  Recall:      0.5073
+  Avg Precision: 0.4963
+
+SVM:
+  F1-Score:    0.6208 ± 0.0053
+  Accuracy:    0.4997
+  Precision:   0.4999
+  Recall:      0.8193
+  Avg Precision: 0.5176
+
+----------------------------------------
+Selected Best Model: SVM (F1: 0.6208)
